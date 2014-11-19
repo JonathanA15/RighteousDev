@@ -1,4 +1,4 @@
-RighteousDev
+The Righteous Developer Build 
 ============
 
-Assets and other things
+Pure C++, no assets. 
