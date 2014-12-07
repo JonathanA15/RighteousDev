@@ -1,0 +1,30 @@
+The Righteous Developer Build 
+=============================
+NEWS (12/7/14)
+
+Righteous XT
+--
+XT, standing for eXTensible, is the name of the software used to test game logic before the full 3D version of The Righteous
+this version is very much intended to be easily modifiable in which it is easy to simply "pop" features with ease and
+"push" new features all with the subsystems like memory intact. Thus I suggest not modifying the code to this and instead
+modify the "CurrentDevBuild" folder instead.
+
+Features implemented with latest build:
+
+Combat core is modified to use the Battle Junction system instead of only a traditional SRPG system. 
+The Battle Junction system is intended to be like a turn-based battle network like battle system focused
+on engaging the player in traditionally turn based combat.
+
+User interface has additional items added to reflect future development goals.
+
+
+To-Do:
+a full fledged State Manager will be needed. State Machine can use further tweaking to reflect special conditions in battle
+battle skills, and mechanics.
+
+The old version had the skeleton of a market that would need further modification to fully work in the current version
+Market will be needed to buy new parts, test different part types and sell parts along with weapons, etc. 
+
+Pilots, Weapons, Items and entites need reimplementation in this version, past code can be used for reference.
+
+ 
