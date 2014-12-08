@@ -2,8 +2,6 @@
 
 class RighteousCustomizationSystem
 {
-private:
-
 
 public:
 
@@ -15,12 +13,15 @@ BushWall bushWall;
 GrayHound grayHound;
 VA VAR;
 
+void CustomizeVA();
+void CustomizeWeapon();
+void UpgradeVA();
+void UpgradeWeapon();
+void ShiftMaterial();
+
 void CustomVA() {
 	int selfHelp;
 
-	/*
-
-	*/
 	std::cout << "Welcome to the Hanger!" << std::endl;
 	std::cout << "1)Customize VA 2)Customize Weapons 3)Upgrade VA 4)Upgrade Weapon 5)Change Material 6)View Stats."<< std::endl;
 
@@ -50,10 +51,72 @@ void CustomVA() {
 		//VAR.GetStats();
 		break;
 	}
-};
+}
+
+void CustomizeVA()
+{
+	char LimbSelect;
+	char ModSelect;
+
+	int SelectOrder;
+
+	std::cin >> ModSelect;
+	std::cout << "Customize (E)xternal or (I)nternal"  << std::endl;
+	
+
+	if(ModSelect == "E")
+	{
+
+	
+	
+
+	std::cout << "Select limb: " << std::endl;
+	std::cout << "(H)ead (T)orso (R)ight Arm (L)eft Arm (RI)ght Leg (LE)ft Leg (B)ackpack " std::endl;
+	std::cin >> LimbSelect;
+	//std::cin >> SelectOrder;
+
+	if(LimbSelect == H)
+	{
+
+	}
+	else if(LimbSelect == "T")
+	{
+
+	}
+	else if(LimbSelect == "R")
+	{
+
+	}
+	else if(LimbSelect == "L")
+	{
+
+	}
+	else if(LimbSelect == "RI")
+	{
+
+	}
+	else if(LimbSelect == "LE")
+	{
+
+	}
+	else if(LimbSelect == "B")
+	{
+
+	}
+
+}
+
+	else if(ModSelect == "I")
+	{
+
+	}
+}
+
+void CustomizeWeapon()
+{
 
 
+}
 
-//void UseCustomVA(){}
 
 };
