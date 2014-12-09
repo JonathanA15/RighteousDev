@@ -77,7 +77,7 @@ void CustomizeVA()
 
 	if(LimbSelect == H)
 	{
-
+      //std::cout << "Head Stats: << std::endl;"
 	}
 	else if(LimbSelect == "T")
 	{
